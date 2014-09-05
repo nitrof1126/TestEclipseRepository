@@ -15,7 +15,7 @@ public class Interface extends JFrame implements ActionListener{
 	JLabel toHitNum,attackResults,rangedToHit,rangedNumOfHit,toWoundNum,woundResults,savePass,saveFail;
 	
 	public  Interface(){
-		JFrame frame = new JFrame("Main Menu");
+		JFrame frame = new JFrame("Main Screen");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLayout(new GridLayout(2,2));
 		melee = new JButton ("Melee Combat Calclutaions");
